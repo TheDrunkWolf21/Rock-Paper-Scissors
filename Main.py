@@ -44,4 +44,22 @@ while (ver == 0):
         computer = computer + 1
     print("Let's congratulate the winner, and let's start all over again. May the best man win!")
     print("human score ",human,":",computer, "computer score")
+    if ((human < computer) and (win == 0)):
+        print("Shit! It's a draw.")
+    if ((human < computer) and (win == 1)):
+        print("Wow! Your victory is coming soon")
+    if ((human < computer) and (win == 2)):
+        print("Wow! Computer scores points")
+    if ((human == computer) and (win == 0)):
+        print("Super draw!")
+    if ((human == computer) and (win == 1)):
+        print("Wow! Human scores points")
+    if ((human == computer) and (win == 2)):
+        print("Wow! Computer scores points")
+    if ((human > computer) and (win == 0)):
+        print("Fortunately, it's a draw")
+    if ((human > computer) and (win == 1)):
+        print("Wow! Human gaining the upper hand")
+    if ((human > computer) and (win == 2)):
+        print("Shit! Computer is catching up us")
     ver = 0
