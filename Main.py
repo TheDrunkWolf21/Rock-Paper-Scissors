@@ -47,7 +47,7 @@ while (ver == 0):
     if ((human < computer) and (win == 0)):
         print("Shit! It's a draw.")
     if ((human < computer) and (win == 1)):
-        print("Wow!! Your victory is coming soon")
+        print("Wow! Your victory is coming soon")
     if ((human < computer) and (win == 2)):
         print("Wow! Computer scores points")
     if ((human == computer) and (win == 0)):
