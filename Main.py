@@ -37,7 +37,7 @@ while (ver == 0):
     if (win == 0):
         print("Neech!")
     if (win == 1):
-        print("Win Human!")
+        print("Win Human!!")
         human = human + 1
     if (win == 2):
         print("Win Computer!")
