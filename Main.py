@@ -35,7 +35,7 @@ while (ver == 0):
     if ((player == 3) and (comp == 2)):
         win = 1
     if (win == 0):
-        print("Neech!")
+        print("Neech! How?")
     if (win == 1):
         print("Win Human!")
         human = human + 1
