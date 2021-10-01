@@ -17,7 +17,7 @@ while (ver == 0):
     if comp == 1:
         print("Computer choose Stone!") 
     if comp == 2:
-        print("Computer choose Paper!")
+        print("Computer choose Paper")
     if comp == 3:
         print("Computer choose Scissors")
     if (player == comp):
