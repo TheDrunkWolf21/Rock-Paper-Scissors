@@ -15,7 +15,7 @@ while (ver == 0):
         print("You choose Scissors")
     comp = random.randint(1, 3)
     if comp == 1:
-        print("Computer choose Stone") 
+        print("Computer choose Stone!") 
     if comp == 2:
         print("Computer choose Paper!")
     if comp == 3:
