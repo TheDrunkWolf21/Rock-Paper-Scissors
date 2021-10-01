@@ -19,7 +19,7 @@ while (ver == 0):
     if comp == 2:
         print("Computer choose Paper")
     if comp == 3:
-        print("Computer choose Scissors")
+        print("Computer choose Scissors!")
     if (player == comp):
         win = 0
     if ((player == 1) and (comp == 2)):
